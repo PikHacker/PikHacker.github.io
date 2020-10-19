@@ -9,21 +9,29 @@ h1{
     text-align:center;
 }
 
+.assignment a:hover {
+    color: blue;
+}
+
 .assignment {
     display:flex;
     padding:10px;
     margin:10px;
+    margin-bottom:30px;
     background:lightblue;
+    border-radius:5px;
+    box-shadow:5px 8px blue;
 }
 
-.assignment img {
-   width: 300px;
-   height: 300px;
-   border:2px solid darkslateblue;
-   margin-right:20px;
-}
+    .assignment img {
+        width: 300px;
+        height: 300px;
+        border: 2px solid darkslateblue;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
 
 a {
-    text-decoration:none;
-    color:darkorchid;
+    text-decoration: none;
+    color: darkorchid;
 }
