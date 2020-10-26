@@ -9,12 +9,17 @@ h1{
     text-align:center;
 }
 
+.assignments {
+    display: flex;
+    flex-wrap:wrap;
+}
+
 .assignment a:hover {
     color: blue;
 }
 
 .assignment {
-    display:flex;
+    width:20%;
     padding:10px;
     margin:10px;
     margin-bottom:30px;
@@ -29,6 +34,8 @@ h1{
         border: 2px solid darkslateblue;
         margin-right: 20px;
         border-radius: 5px;
+        display: block;
+        margin: auto;
     }
 
 a {
